@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Meyer reset */
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(2, 49, 2);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.words-in-header {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.ul-container {
+    overflow: auto;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    background-color: rgb(2, 49, 2, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+.card-image {
+    width: 100%;
+    max-height: 175px;
+}
+
+.quote-card-words {
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+
+}
+
+.the-quote {
+    margin: 10px;
+    font-style: italic;
+}
+
+.quote-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+
+.right-column {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.row{
+    display: grid;
+}
+
+.quote-create {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* max-width: 500px; */
+    margin-left: 40px;
+
+}
+
+.form-details {
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.quote-button {
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* text-shadow: 2px 2px 4px #000000; */
+    box-shadow: slategrey;
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    
+}
+
+.motivation-info {
+    /* background-image: url("https://i.pinimg.com/originals/ca/a2/65/caa2654e79e2dc88c6a3c18e1a353452.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 150%;
+    width: 25%;
+    height: 550px;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to bottom left, rgb(2, 49, 2), grey);
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.filter-section {
+    /* width: 80%;
+    height: 60%;
+    top: 50%; */
+    margin: 0px;
+    padding-left: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+}
+
+/* a:visited {
+    color: green;
+} */
+
+.p-text {
+    padding: 8px;
+    text-shadow: snow;
+    font-size: 15px;
+}
+
+.layout-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-info {
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    height: 570px;
+    background-color: rgb(2, 49, 2); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(2, 49, 2), grey);
+    color: white;
+}
+
+.buddah-image {
+    padding: 15px;
+    height: auto;
+    width: auto;
+    margin-right: 25px;
+}
+
+#category-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    display: flex;
+    flex-direction: left;
+    border-radius: 6px;
+}
+
+.author-text-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.quote-text-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.absolute-quote {
+
+}
+
+.oscar-text {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.oscar-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    padding-right: 30px;
+}

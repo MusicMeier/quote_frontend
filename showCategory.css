@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my code below */
+
+.big-header {
+    margin-bottom: 10px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.one-image {
+    max-height: 150px;
+    width:  auto;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header-words {
+    color: rgb(2, 49, 2);
+    text-align: start;
+    padding-top: 35px;
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-left: 10px;
+}
+
+.one-category {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    padding-top: 7px;
+}
+
+.header-photo {
+    text-align: right;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.rounded {
+    border-top: 8px solid rgb(2, 49, 2);
+    border-radius: 5px;
+}
+
+body {
+    /* margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom right, rgba(2, 49, 2, 0.486), grey);
+    height: 2000px; */
+}
+
+.quote-container {
+    color: rgb(2, 49, 2);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote-description {
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.author {
+    margin-top:8px;
+    margin-bottom: 4px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-button {
+    border: none;
+    background-color: rgba(2, 49, 2, 0.486);
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
