@@ -98,7 +98,7 @@ createQuote.addEventListener('submit', event => {
 
 <h2>App Preview</h2>
 
-<img src="https://i.imgur.com/x9kGqC6.png" border="0" width="500" height="auto"/><br>
+<img src="https://i.imgur.com/x9kGqC6.png" border="0" width="400" height="auto"/><br>
 <img src="https://i.imgur.com/3MS9Rd2.png" border="0" width="300" height="auto"/><br>
 <img src="https://i.imgur.com/kfg5gtq.png" border="0" width="300" height="auto"/><br>
 <img src="https://i.imgur.com/4ykBtQm.png" border="0" width="300" height="auto"/><br>
