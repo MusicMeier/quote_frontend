@@ -65,26 +65,6 @@ fetch(categoriesURL)
 fetch(quotesURL)
 .then(response => response.json())
 .then(displayQuotes)
-    // quotes.forEach(quote => {
-    //     const quoteDescription = document.createElement('p')
-    //     const quoteAuthor = document.createElement('p')
-    //     const wordsDiv = document.createElement('div')
-    //     const quoteCard = document.createElement('div')
-    //     const quoteImage = document.createElement('img')
-
-    //     quoteCard.className = 'quote-card'
-    //     quoteImage.className = 'card-image'
-    //     wordsDiv.className = 'quote-card-words'
-    //     quoteDescription.className = 'the-quote'
-        
-    //     quoteDescription.textContent = quote.description
-    //     quoteAuthor.textContent = quote.author
-    //     quoteImage.src = quote.category.url
-
-    //     wordsDiv.append(quoteDescription, quoteAuthor)
-    //     quoteCard.append(quoteImage, wordsDiv)
-    //     quoteContainer.appendChild(quoteCard)
-    //     })
     
 fetch(categoriesURL)
     .then(response => response.json())
