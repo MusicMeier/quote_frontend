@@ -35,13 +35,7 @@ function displayQuotes(quotes) {
         wordsDiv.append(quoteDescription, quoteAuthor)
         quoteCard.append(imageDiv, wordsDiv)
         liForCards.append(quoteCard)
-        ulContainer.append(liForCards)
-        
-        quoteCard.addEventListener('mouseover', event => {
-            event.stopPropagation()
-            console.log(event.target)
-            event.target.style.zIndex = 10
-        })
+        ulContainer.prepend(liForCards)
     })
 }
 

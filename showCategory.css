@@ -123,9 +123,12 @@ body {
 
 .home-button {
     border: none;
-    background-color: rgba(2, 49, 2, 0.486);
+    background-color: rgba(2, 49, 2, 0.664);
     border-radius: 6px;
-    padding: 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left:8px;
+    padding-right: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.521);
+    color: white;
 }
