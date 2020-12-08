@@ -40,7 +40,7 @@ From your backend folder perform the following commands:<br>
 <li>You don't want to send your node-modules to github, in terminal: <code>touch .gitignore</code></li>
 <li>require express in your index.js folder</li><br>
 <li>Use terminal to install knex: <code>npm i knex</code></li><br>
-<li>got to knexfile and delete all but development seciton. </li><br>
+<li>go to knexfile and delete all but development seciton. </li><br>
 <li>Use terminal to install SQLite3: <code>npm install sqlite3</code></li><br>
 <li>use knex to migrate: <code>npx knex migrate:make filename-table</code></li><br>
 <li>Use knex to migrate the tables you just made: <code>npx knex migrate:latest</code></li><br>
